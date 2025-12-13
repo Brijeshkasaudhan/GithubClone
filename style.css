@@ -1790,6 +1790,9 @@ body{
     font-size: 22px;
     cursor: pointer;
   }
+ .logo{
+    margin-right: 50%;
+  }
 
   .navOption {
     position: fixed;
