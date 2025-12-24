@@ -67,8 +67,16 @@ body{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         background: #fff;
-        height: 400px;
-        width: 800px;
+        height: 200px;
+        width: 700px;
+        
+    }
+    .platform-menu div{
+      margin-top: 5px;
+      padding: 1px;
+    }
+    .platform-menu div :hover{
+      color: blue;
     }
     
 }
@@ -94,8 +102,15 @@ body{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         background: #fff;
-        height: 400px;
-        width: 600px;
+        height: 200px;
+        width: 700px;
+    }
+    .solution-menu div{
+      margin-top: 5px;
+      padding: 1px;
+    }
+    .solution-menu div :hover{
+      color: blue;
     }
     
 }
@@ -123,8 +138,15 @@ body{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         background: #fff;
-        height: 400px;
+        height: 200px;
         width: 400px;
+    }
+    .resource-menu div{
+      margin-top: 5px;
+      padding: 1px;
+    }
+    .resource-menu div :hover{
+      color: blue;
     }
     
 }
@@ -152,8 +174,15 @@ body{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         background: #fff;
-        height: 400px;
+        height: 200px;
         width: 600px;
+    }
+    .openSource-menu div{
+      margin-top: 5px;
+      padding: 1px;
+    }
+    .openSource-menu div :hover{
+      color: blue;
     }
     
 }
@@ -176,14 +205,30 @@ body{
     background-color: #fff;
     border-radius: 8px;
 }
+.enterprise-small{
+  font-size: smaller;
+}
+.enterprise-head{
+  font-size: small;
+}
+.enterprise-mid{
+  font-size: large;
+}
 .Enterprise-box:hover{
     color: #606980;
     .Enterprise-menu{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         background: #fff;
-        height: 400px;
-        width: 400px;
+        height: 250px;
+        width: 470px;
+    }
+     .Enterprise-menu div{
+      margin-top: 5px;
+      padding: 1px;
+    }
+    .Enterprise-menu div :hover{
+      color: blue;
     }
     
 }
@@ -1777,20 +1822,23 @@ body{
   .header {
     width: 100%;
     padding: 8px 12px;
+    
   }
 
   .nav {
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    
   }
 
   #bars {
+    
     display: block;
     font-size: 22px;
     cursor: pointer;
   }
- .logo{
+  .logo{
     margin-right: 50%;
   }
 
@@ -1802,6 +1850,7 @@ body{
     background: #010335;
     flex-direction: column;
     gap: 20px;
+   
     transition: left 0.3s ease;
     overflow-y: auto;
     z-index: 999;
@@ -1864,6 +1913,7 @@ body{
 }
 
 @media (max-width: 768px) {
+
   .video-frame video {
     width: 100%;
     border-width: 4px;
@@ -1908,5 +1958,6 @@ body{
     display: none;
   }
 }
+
 
 
